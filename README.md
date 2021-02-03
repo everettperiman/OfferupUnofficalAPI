@@ -3,12 +3,14 @@ Unofficial API for the ecommerce site Offerup
 This is an unoffical api and is to be used at your own risk.
 
 Intro
-	The example.py is included to introduce the api tool, its a very simple tool and is open to further improvements and optimizations.
-	I would strongly recommend using http://jsonviewer.stack.hu/ or another json viewer to figure out the most useful information.
-	Included is an example response from the website for easy review but you can get your own request by saving a request_raw_feed() output.
+	The example.py is included to introduce the api tool, its a very simple tool and is open to further improvements and optimizations
+	I would strongly recommend using http://jsonviewer.stack.hu/ or another json viewer to figure out the most useful information
+	Included is an example response from the website for easy review but you can get your own request by saving a request_raw_feed() output
 	
 Tips
 	Try to limit API calls to > 1s, they will block your requests if they are too fast
+	Would recommend using a library such as geopy to automate the searching of lat and lon values
+	Geopy .lat and .lon attributes plug and play directly into the search params
 
 	When building the search parameters the table below has acceptable values
 	# Options
